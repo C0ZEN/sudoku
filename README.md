@@ -39,5 +39,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 [daviddm-dev-url]: https://david-dm.org/C0ZEN/sudoku?type=dev
 [code-climate-maintainability-image]: https://api.codeclimate.com/v1/badges/59a52a286cd814af1edd/maintainability
 [code-climate-maintainability-url]: https://codeclimate.com/github/C0ZEN/sudoku/maintainability
-[code-climate-coverage-image]: https://api.codeclimate.com/v1/badges/59a52a286cd814af1edd/maintainability
+[code-climate-coverage-image]: https://api.codeclimate.com/v1/badges/59a52a286cd814af1edd/test_coverage
 [code-climate-coverage-url]: https://codeclimate.com/github/C0ZEN/sudoku/test_coverage
