@@ -49,7 +49,7 @@
 		"scss/at-if-closing-brace-newline-after": "always-last-in-chain",
 		"scss/at-if-closing-brace-space-after": "always-intermediate",
 		"scss/at-mixin-argumentless-call-parentheses": "always",
-		"scss/at-mixin-named-arguments": "never",
+		"scss/at-mixin-named-arguments": null,
 		"scss/at-mixin-parentheses-space-before": "never",
 		"scss/dollar-variable-colon-space-after": "always",
 		"scss/dollar-variable-colon-space-before": "never",
