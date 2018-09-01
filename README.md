@@ -1,8 +1,6 @@
 # Sudoku
 [![Software License][license-image]](LICENSE) [![Dependency Status][daviddm-image]][daviddm-url] [![devDependencies Status][daviddm-dev-image]][daviddm-dev-url] [![Maintainability][code-climate-maintainability-image]][code-climate-maintainability-url] [![Test Coverage][code-climate-coverage-image]][code-climate-coverage-url]
-> Use this app to find a date at X days later
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
+> Sudoku app to improve my Front-End skills and experiment stuff.
 
 ## Authors
 
@@ -31,6 +29,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
 [license-image]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat
 [daviddm-image]: https://david-dm.org/C0ZEN/sudoku/status.svg
