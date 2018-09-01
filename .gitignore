@@ -1,0 +1,5 @@
+# IDE files
+.idea/
+
+# Dependencies
+node_modules/
