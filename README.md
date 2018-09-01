@@ -1,5 +1,5 @@
 # Sudoku
-[![Software License][license-image]](LICENSE) [![Dependency Status][daviddm-image]][daviddm-url] [![devDependencies Status][daviddm-dev-image]][daviddm-dev-url] [![Maintainability][code-climate-maintainability-image]][code-climate-maintainability-url][![Test Coverage][code-climate-coverage-image]][code-climate-coverage-url]
+[![Software License][license-image]](LICENSE) [![Dependency Status][daviddm-image]][daviddm-url] [![devDependencies Status][daviddm-dev-image]][daviddm-dev-url] [![Maintainability][code-climate-maintainability-image]][code-climate-maintainability-url] [![Test Coverage][code-climate-coverage-image]][code-climate-coverage-url]
 > Use this app to find a date at X days later
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
