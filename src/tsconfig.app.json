@@ -1,0 +1,18 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": "./",
+		"outDir": "../out-tsc/app",
+		"paths": {
+			"sudoku/common/*": [
+				"app/common/*"
+			],
+			"sudoku/features/*": [
+				"app/features/*"
+			],
+			"sudoku/views/*": [
+				"app/views/*"
+			]
+		}
+	}
+}

@@ -11,6 +11,3 @@ out-tsc/
 
 # Yarn
 yarn-error.log
-
-# Pug
-/src/**/*.html

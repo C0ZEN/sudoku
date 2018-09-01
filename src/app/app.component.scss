@@ -1,0 +1,17 @@
+@import 'import';
+
+sudoku-app {
+	@include sudoku-rem-fallback-one(grid-template-rows, $sudoku-header-height, 1fr);
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 0;
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+
+	> :last-child {
+		grid-column: 1;
+		grid-row: 2;
+	}
+}
