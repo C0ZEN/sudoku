@@ -1,0 +1,36 @@
+@mixin sudoku-rem-fallback-one($property, $values...) {
+	$max: length($values);
+	$pxValues: '';
+	$remValues: '';
+
+	@for $i from 1 through $max {
+		@if $i == 1 {
+			$value: sudoku-strip-unit(nth($values, $i));
+			$pxValues: #{$pxValues + $value*16}px;
+		} @else {
+			$value: nth($values, $i);
+			$pxValues: #{$pxValues + $value};
+		}
+
+		@if $i < $max {
+			$pxValues: #{$pxValues + ' '};
+		}
+	}
+
+	@for $i from 1 through $max {
+		@if $i == 1 {
+			$value: sudoku-strip-unit(nth($values, $i));
+			$remValues: #{$remValues + $value}rem;
+		} @else {
+			$value: nth($values, $i);
+			$remValues: #{$remValues + $value};
+		}
+
+		@if $i < $max {
+			$remValues: #{$remValues + ' '};
+		}
+	}
+
+	#{$property}: $pxValues;
+	#{$property}: $remValues;
+}
