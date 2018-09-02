@@ -1,5 +1,5 @@
 doctype html
-html(lang="en")
+html(lang="{{ site.lang }}")
 	head
 		meta(charset="UTF-8")
 		title {{ site.title }} by {{ site.author }}
@@ -15,5 +15,40 @@ html(lang="en")
 		href="favicon.ico")
 		link(href="{{ site.baseUrl }}"
 		rel="canonical")
+		link(href="{{ '/manifest.json?v=' | append: site.github.build_revision | relative_url }}"
+		rel="manifest")
+		link(href="{{ '/feed.xml?v=' | append: site.github.build_revision | relative_url }}"
+		rel="alternate"
+		type="application/atom+xml"
+		title="{{ site.title }}")
+		link(href="{{ '/assets/images/favicon/favicon.ico?v=' | append: site.github.build_revision | relative_url }}"
+		rel="shortcut icon"
+		type="image/x-icon")
+		link(href="{{ '/assets/images/favicon/apple-touch-icon.png?v=' | append: site.github.build_revision | relative_url }}"
+		rel="apple-touch-icon")
+		link(href="{{ '/assets/images/favicon/apple-touch-icon-57x57.png?v=' | append: site.github.build_revision | relative_url }}"
+		rel="apple-touch-icon"
+		sizes="57x57")
+		link(href="{{ '/assets/images/favicon/apple-touch-icon-72x72.png?v=' | append: site.github.build_revision | relative_url }}"
+		rel="apple-touch-icon"
+		sizes="72x72")
+		link(href="{{ '/assets/images/favicon/apple-touch-icon-76x76.png?v=' | append: site.github.build_revision | relative_url }}"
+		rel="apple-touch-icon"
+		sizes="76x76")
+		link(href = "{{ '/assets/images/favicon/apple-touch-icon-114x114.png?v=' | append: site.github.build_revision | relative_url }}"
+		rel="apple-touch-icon"
+		sizes="114x114")
+		link(href="{{ '/assets/images/favicon/apple-touch-icon-120x120.png?v=' | append: site.github.build_revision | relative_url }}"
+		rel="apple-touch-icon"
+		sizes="120x120")
+		link(href="{{ '/assets/images/favicon/apple-touch-icon-144x144.png?v=' | append: site.github.build_revision | relative_url }}"
+		rel="apple-touch-icon"
+		sizes="144x144")
+		link(href="{{ '/assets/images/favicon/apple-touch-icon-152x152.png?v=' | append: site.github.build_revision | relative_url }}"
+		rel="apple-touch-icon"
+		sizes="152x152")
+		link(href="{{ '/assets/images/favicon/apple-touch-icon-180x180.png?v=' | append: site.github.build_revision | relative_url }}"
+		rel="apple-touch-icon"
+		sizes="180x180")
 	body
 		sudoku-app

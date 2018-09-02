@@ -8,6 +8,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - New grunt task `fake-release` to test a dry run of the release
 
+### Changed
+- Index content
+- Favicon
+
 ### Fixed
 - The jekyll version is now updated as expected
 - The manifest version is now updated as expected

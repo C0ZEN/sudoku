@@ -22,7 +22,7 @@
 						"progress": false,
 						"serviceWorker": false,
 						"assets": [
-							"src/favicon.ico",
+							"src/images",
 							"src/assets"
 						],
 						"styles": [
