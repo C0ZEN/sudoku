@@ -5,7 +5,7 @@ module.exports = function () {
 	moment.locale('en');
 
 	return {
-		changelog    : {
+		changelogTag    : {
 			src    : 'CHANGELOG.md',
 			dest   : 'CHANGELOG.md',
 			options: {
@@ -17,7 +17,7 @@ module.exports = function () {
 				]
 			}
 		},
-		configVersion: {
+		jekyllVersion: {
 			src    : 'jekyll.yml',
 			dest   : 'jekyll.yml',
 			options: {
