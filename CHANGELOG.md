@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [0.1.12] 2018-09-02 15:44
 ### Fixed
 - GitHub commits badge
 - Infinite npm publish when using the script with grunt release task
