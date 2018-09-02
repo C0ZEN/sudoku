@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.1.13] 2018-09-02 15:46
+### Fixed
+- GitHub commits badge
+- Infinite npm publish when using the script with grunt release task
+
 ## [0.1.12] 2018-09-02 15:44
 ### Fixed
 - GitHub commits badge
