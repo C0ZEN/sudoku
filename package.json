@@ -1,7 +1,20 @@
 {
 	"name": "sudoku",
 	"version": "0.0.0",
+	"description": "Sudoku app to improve my Front-End skills and experiment stuff.",
 	"license": "MIT",
+	"homepage": "https://github.com/C0ZEN/sudoku",
+	"keywords": [
+		"cozen",
+		"angular",
+		"front-end",
+		"sudoku"
+	],
+	"author": {
+		"name": "Geoffrey <C0ZEN> Testelin",
+		"email": "geoffrey.testelin@gmail.com",
+		"url": "www.geoffreytestelin.com"
+	},
 	"scripts": {
 		"ng": "ng",
 		"start": "run-p pug-it:w server",
