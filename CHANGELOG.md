@@ -10,6 +10,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Fixed
 - The jekyll version is now updated as expected
+- The manifest version is now updated as expected
 
 ## [0.1.13] 2018-09-02 15:46
 ### Fixed
