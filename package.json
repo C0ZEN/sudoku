@@ -15,6 +15,8 @@
 		"email": "geoffrey.testelin@gmail.com",
 		"url": "www.geoffreytestelin.com"
 	},
+	"repository": "C0ZEN/sudoku",
+	"private": false,
 	"scripts": {
 		"ng": "ng",
 		"start": "run-p pug-it:w server",
@@ -27,7 +29,6 @@
 		"pug-it": "pug src",
 		"pug-it:w": "pug src -P -w"
 	},
-	"private": false,
 	"dependencies": {
 		"@angular/animations": "^6.1.0",
 		"@angular/common": "^6.1.0",
