@@ -6,6 +6,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.1.4] 2018-09-02 12:33
+### Changed
+- Grunt release task
+
 ## [0.1.3] 2018-09-02 12:14
 ### Changed
 - Grunt release task
