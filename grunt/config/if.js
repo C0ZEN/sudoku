@@ -28,8 +28,7 @@ module.exports = function (grunt) {
 				'angular.release',              // Create the Angular release
 				'preprocess:manifest',          // Create a new manifest into docs folder
 				'copy:jekyll',                  // Create a new jekyll config into docs folder
-				'internal.bump',                // Update the package [add tag]
-				'gitcommit:bump',               // Commit all files
+				'internal.bump',                // Update the package [add tag] and commit all files
 				'gitpush:develop',              // Push the commit
 				'gitcheckout:master',           // Go to the master branch
 				'gitmerge:develop',             // Merge the develop into the master
