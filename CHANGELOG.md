@@ -6,6 +6,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.1.10] 2018-09-02 14:45
+### Fixed
+- Npm publish task for grunt release task
+
 ## [0.1.9] 2018-09-02 13:54
 ### Added
 - Publish to npm
