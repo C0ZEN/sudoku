@@ -41,3 +41,5 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-mentions
+
+theme: jekyll-theme-cayman
