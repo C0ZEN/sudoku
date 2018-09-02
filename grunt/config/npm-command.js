@@ -11,7 +11,7 @@ module.exports = {
 		options: {
 			cmd : 'run',
 			args: [
-				'publish'
+				'npm-publish'
 			]
 		}
 	}

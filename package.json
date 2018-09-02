@@ -29,7 +29,7 @@
 		"pug-it": "pug src",
 		"pug-it:w": "pug src -P -w",
 		"release": "grunt release",
-		"publish": "npm publish"
+		"npm-publish": "npm publish"
 	},
 	"dependencies": {
 		"@angular/animations": "^6.1.0",
