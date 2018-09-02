@@ -23,10 +23,11 @@ module.exports = function (grunt) {
 			},
 			ifTrue : [
 				'gitcheckout:develop',          // Go to the develop branch
-				'angular.release',              // Create the Angular release
 				'string-replace:changelog',     // Update the changelog [add tag]
 				'string-replace:configVersion', // Update the config [add tag]
+				'angular.release',              // Create the Angular release
 				'preprocess:manifest',          // Create a new manifest into docs folder
+				'copy:jekyll',                  // Create a new jekyll config into docs folder
 				'internal.bump',                // Update the package [add tag] and create a commit
 				'gitpush:develop',              // Push the commit
 				'gitcheckout:master',           // Go to the master branch

@@ -3,7 +3,7 @@ module.exports = {
 		options: {
 			verbose : true,
 			branch  : 'develop',
-			message : 'Release <%= newVersion %>',
+			message : 'new release <%= newVersion %>',
 			noCommit: false,
 			strategy: 'recursive'
 		}

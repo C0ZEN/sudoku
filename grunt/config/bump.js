@@ -4,13 +4,13 @@ module.exports = {
 			'package.json'
 		],
 		commit            : true,
-		commitMessage     : 'Release <%= newVersionTarget %> <%= newVersion %>',
+		commitMessage     : 'build: new <%= newVersionTarget %> <%= newVersion %>',
 		commitFiles       : [
 			'-a'
 		],
 		createTag         : false,
 		tagName           : '<%= newVersion %>',
-		tagMessage        : 'Version <%= newVersion %>',
+		tagMessage        : 'new version <%= newVersion %>',
 		push              : false,
 		pushTo            : 'origin',
 		gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d',
