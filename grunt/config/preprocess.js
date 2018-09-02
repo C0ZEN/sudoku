@@ -3,7 +3,7 @@ module.exports = grunt => {
 		manifest: {
 			options: {
 				context: {
-					config: grunt.file.readYAML('_config.yml')
+					config: grunt.file.readYAML('jekyll.yml')
 				}
 			},
 			src    : 'manifest.json',

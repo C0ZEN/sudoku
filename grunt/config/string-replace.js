@@ -12,8 +12,8 @@ module.exports = {
 		}
 	},
 	configVersion: {
-		src    : '_config.yml',
-		dest   : '_config.yml',
+		src    : 'jekyll.yml',
+		dest   : 'jekyll.yml',
 		options: {
 			replacements: [
 				{

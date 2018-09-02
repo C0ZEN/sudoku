@@ -19,25 +19,25 @@ author: C0ZEN
 author_email: geoffrey.testelin@gmail.com
 author_url: http://www.geoffreytestelin.com/
 twitter:
-	username: C0ZEN
+  username: C0ZEN
 logo: /images/logo.png
 social:
-	name: Geoffrey Testelin
-	links:
-		- https://twitter.com/C0ZEN
-		- https://github.com/C0ZEN
-		- https://www.linkedin.com/in/testelingeoffrey/
-		- https://codepen.io/C0ZEN/
-		- https://github.com/C0ZEN
-		- http://www.geoffreytestelin.com/
-		- https://stackoverflow.com/users/4440414/c0zen
+  name: Geoffrey Testelin
+  links:
+    - https://twitter.com/C0ZEN
+    - https://github.com/C0ZEN
+    - https://www.linkedin.com/in/testelingeoffrey/
+    - https://codepen.io/C0ZEN/
+    - https://github.com/C0ZEN
+    - http://www.geoffreytestelin.com/
+    - https://stackoverflow.com/users/4440414/c0zen
 lang: fr_FR
 feed:
-	path: feed.xml
+  path: feed.xml
 
 # Plugins
 plugins:
-	- jekyll-seo-tag
-	- jekyll-feed
-	- jekyll-sitemap
-	- jekyll-mentions
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-mentions
