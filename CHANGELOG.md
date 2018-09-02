@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [0.2.0] 2018-09-02 16:50
 ### Added
 - New grunt task `fake-release` to test a dry run of the release
 
