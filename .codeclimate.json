@@ -52,6 +52,7 @@
 		}
 	},
 	"exclude_patterns": [
-		"docs/"
+		"docs/",
+		"grunt/"
 	]
 }
