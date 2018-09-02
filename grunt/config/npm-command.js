@@ -7,7 +7,7 @@ module.exports = {
 			]
 		}
 	},
-	npm            : {
+	publish        : {
 		options: {
 			cmd : 'run',
 			args: [
