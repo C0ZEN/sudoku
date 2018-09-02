@@ -5,19 +5,19 @@ module.exports = {
 		options: {
 			replacements: [
 				{
-					pattern    : /(\#\# \[Unreleased\])/g, // eslint-disable-line
+					pattern    : /(\#\# \[Unreleased\])/g,
 					replacement: '## [Unreleased]\n\n## [<%= newVersion %>]'
 				}
 			]
 		}
 	},
 	configVersion: {
-		src    : 'docs/_config.yml',
-		dest   : 'docs/_config.yml',
+		src    : '_config.yml',
+		dest   : '_config.yml',
 		options: {
 			replacements: [
 				{
-					pattern    : /version: ([0-9]+<[.]){2}[0-9]+/g, // eslint-disable-line
+					pattern    : /version: ([0-9]+<[.]){2}[0-9]+/g,
 					replacement: 'version: <%= newVersion %>'
 				}
 			]

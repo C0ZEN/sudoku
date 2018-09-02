@@ -3,10 +3,10 @@ module.exports = grunt => {
 		manifest: {
 			options: {
 				context: {
-					config: grunt.file.readYAML('docs/_config.yml')
+					config: grunt.file.readYAML('_config.yml')
 				}
 			},
-			src    : 'docs/manifest.clean.json',
+			src    : 'manifest.json',
 			dest   : 'docs/manifest.json'
 		}
 	};

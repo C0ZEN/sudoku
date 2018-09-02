@@ -22,18 +22,18 @@ module.exports = function (grunt) {
 				}
 			},
 			ifTrue : [
-				'gitcheckout:develop',
-				'js.release',
-				'string-replace:changelog',
-				'string-replace:configVersion',
-				'preprocess:manifest',
-				'internal.bump',
-				'gitpush:develop',
-				'gitcheckout:master',
-				'gitmerge:develop',
-				'gittag:release',
-				'gitpush:master',
-				'gitcheckout:develop'
+				'gitcheckout:develop',          // Go to the develop branch
+				'angular.release',              // Create the Angular release
+				'string-replace:changelog',     // Update the changelog [add tag]
+				'string-replace:configVersion', // Update the config [add tag]
+				'preprocess:manifest',          // Create a new manifest into docs folder
+				'internal.bump',                // Update the package [add tag] and create a commit
+				'gitpush:develop',              // Push the commit
+				'gitcheckout:master',           // Go to the master branch
+				'gitmerge:develop',             // Merge the develop into the master
+				'gittag:release',               // Create a tag
+				'gitpush:master',               // Push the commit and the tag
+				'gitcheckout:develop'           // Go to the develop branch
 			]
 		}
 	};
