@@ -26,6 +26,9 @@ The build artifacts will be stored in the `docs/` directory.
 Run `grunt release` to create a new stable version of the project.  
 Follow the prompts to create a new tag, update the files, build the docs and publish to npm.
 
+Run `grunt fake-release` to create a dry run stable version of the project.  
+Nothing will be committed but be careful due to bump creation - discard required at the end
+
 ## Contributing
 
 Check out the [Contributing](CONTRIBUTING.md) file.

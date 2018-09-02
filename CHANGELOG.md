@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- New grunt task `fake-release` to test a dry run of the release
+
+### Fixed
+- The jekyll version is now updated as expected
 
 ## [0.1.13] 2018-09-02 15:46
 ### Fixed

@@ -63,6 +63,18 @@ module.exports = function (grunt) {
 				]
 			}
 		},
+		confirmFakeRelease: {
+			options: {
+				questions: [
+					{
+						config : 'isFakeReleaseConfirmed',
+						type   : 'confirm',
+						message: 'Create the fake ' + chalk.cyan('release <%= chosenRelease %> [<%= newVersion %>]') + ' ?',
+						default: false
+					}
+				]
+			}
+		},
 		isChangelogUpdated: {
 			options: {
 				questions: [

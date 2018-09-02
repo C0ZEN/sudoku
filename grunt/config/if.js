@@ -1,6 +1,6 @@
 module.exports = function (grunt) {
 	return {
-		isChangelogUpdated: {
+		isChangelogUpdated    : {
 			options: {
 				test() {
 					return grunt.config.get('isChangelogUpdated');
@@ -15,7 +15,22 @@ module.exports = function (grunt) {
 				'internal.changelogRequired'
 			]
 		},
-		isReleaseConfirmed: {
+		isFakeChangelogUpdated: {
+			options: {
+				test() {
+					return grunt.config.get('isChangelogUpdated');
+				}
+			},
+			ifTrue : [
+				'prompt:chooseRelease',
+				'prompt:confirmFakeRelease',
+				'if:isFakeReleaseConfirmed'
+			],
+			ifFalse: [
+				'internal.changelogRequired'
+			]
+		},
+		isReleaseConfirmed    : {
 			options: {
 				test() {
 					return grunt.config.get('isReleaseConfirmed');
@@ -37,6 +52,22 @@ module.exports = function (grunt) {
 				'gitpush:master',               // Push the commit and the tag
 				'gitcheckout:develop',          // Go to the develop branch
 				'npm-command:publish'           // Publish to npm
+			]
+		},
+		isFakeReleaseConfirmed: {
+			options: {
+				test() {
+					return grunt.config.get('isFakeReleaseConfirmed');
+				}
+			},
+			ifTrue : [
+				'gitcheckout:develop',
+				'string-replace:changelogTag',
+				'string-replace:jekyllVersion',
+				'angular.release',
+				'preprocess:manifest',
+				'copy:jekyll',
+				'copy:index'
 			]
 		}
 	};

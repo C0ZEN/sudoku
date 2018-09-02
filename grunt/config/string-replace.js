@@ -23,7 +23,7 @@ module.exports = function () {
 			options: {
 				replacements: [
 					{
-						pattern    : /(version:)\s\d.\d.\d/gmi,
+						pattern    : /(version:)\s\d+.\d+.\d+$/gmi,
 						replacement: 'version: <%= newVersion %>'
 					}
 				]
