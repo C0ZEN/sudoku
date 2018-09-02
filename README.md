@@ -1,5 +1,5 @@
 # Sudoku
-[![Software License][license-image]](LICENSE) [![npm][npm-image]](npm-url) [![GitHub commit activity the past week, 4 weeks, year](github-commits-image)](github-commits-url) [![GitHub issues][github-issues-image]](github-issues-url) [![Dependency Status][daviddm-image]][daviddm-url] [![devDependencies Status][daviddm-dev-image]][daviddm-dev-url] [![Maintainability][code-climate-maintainability-image]][code-climate-maintainability-url] [![Test Coverage][code-climate-coverage-image]][code-climate-coverage-url]
+[![Software License][license-image]](LICENSE) [![npm][npm-image]](npm-url) [![GitHub commit activity][github-commits-image]](github-commits-url) [![GitHub issues][github-issues-image]](github-issues-url) [![Dependency Status][daviddm-image]][daviddm-url] [![devDependencies Status][daviddm-dev-image]][daviddm-dev-url] [![Maintainability][code-climate-maintainability-image]][code-climate-maintainability-url] [![Test Coverage][code-climate-coverage-image]][code-climate-coverage-url]
 > Sudoku app to improve my Front-End skills and experiment stuff.
 
 ## Authors
