@@ -3,7 +3,7 @@ module.exports = {
 		options: {
 			verbose  : true,
 			tag      : '<%= newVersion %>',
-			message  : 'new version <%= newVersion %>',
+			message  : 'new tag <%= newVersion %>',
 			remove   : false,
 			annotated: false,
 			force    : false
