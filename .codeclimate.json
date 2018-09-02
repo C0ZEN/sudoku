@@ -50,5 +50,8 @@
 				"threshold": 4
 			}
 		}
-	}
+	},
+	"exclude_patterns": [
+		"docs/"
+	]
 }
