@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Sudoku",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"description": "Sudoku app to improve my Front-End skills and experiment stuff.",
 	"author": "C0ZEN",
 	"background": {
@@ -9,7 +9,7 @@
 	},
 	"homepage_url": "https://c0zen.github.io/sudoku/",
 	"short_name": "Sudoku",
-	"version_name": "0.1.4",
+	"version_name": "0.1.5",
 	"theme_color": "#16A085",
 	"background_color": "#16A085",
 	"lang": "en",
