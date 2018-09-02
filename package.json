@@ -21,7 +21,7 @@
 		"ng": "ng",
 		"start": "run-p pug-it:w server",
 		"server": "ng serve -c dev",
-		"build": "ng build",
+		"build": "ng build -c prod",
 		"lint": "yarn run tslint && yarn run stylelint",
 		"tslint": "ng lint sudoku --fix --type-check --format stylish",
 		"stylelint": "stylelint \"**/*.scss\"",
