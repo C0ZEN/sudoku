@@ -5,3 +5,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- Scaffolding
+- Grunt tasks
+- Stylelint
+- TSLint
+- CodeClimate config
+- Angular
