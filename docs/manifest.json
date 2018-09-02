@@ -12,7 +12,7 @@
 	"version_name": "0.0.0",
 	"theme_color": "#16A085",
 	"background_color": "#16A085",
-	"lang": "fr_FR",
+	"lang": "en",
 	"display": "standalone",
 	"start_url": "index.html",
 	"orientation": "portrait",
