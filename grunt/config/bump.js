@@ -3,11 +3,7 @@ module.exports = {
 		files             : [
 			'package.json'
 		],
-		commit            : true,
-		commitMessage     : 'build: new <%= newVersionTarget %> <%= newVersion %>',
-		commitFiles       : [
-			'-a'
-		],
+		commit            : false,
 		createTag         : false,
 		tagName           : '<%= newVersion %>',
 		tagMessage        : 'new version <%= newVersion %>',
