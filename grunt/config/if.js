@@ -43,6 +43,7 @@ module.exports = function (grunt) {
 				'angular.release',              // Create the Angular release
 				'copy:jekyll',                  // Create a new jekyll config into docs folder
 				'copy:index',                   // Create the layout file for jekyll
+				'internal.saveJekyll',          // Stored the content of jekyll into a variable for the manifest
 				'preprocess:manifest',          // Create a new manifest into docs folder
 				'internal.bump',                // Update the package [add tag] and commit all files
 				'gitpush:develop',              // Push the commit
@@ -67,6 +68,7 @@ module.exports = function (grunt) {
 				'angular.release',
 				'copy:jekyll',
 				'copy:index',
+				'internal.saveJekyll',
 				'preprocess:manifest'
 			]
 		}
