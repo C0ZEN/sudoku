@@ -35,7 +35,8 @@ module.exports = function (grunt) {
 				'gitmerge:develop',             // Merge the develop into the master
 				'gittag:release',               // Create a tag
 				'gitpush:master',               // Push the commit and the tag
-				'gitcheckout:develop'           // Go to the develop branch
+				'gitcheckout:develop',          // Go to the develop branch
+				'npm-command:publish'           // Publish to npm
 			]
 		}
 	};

@@ -1,5 +1,5 @@
 {
-	"name": "sudoku",
+	"name": "c0zen-sudoku",
 	"version": "0.1.8",
 	"description": "Sudoku app to improve my Front-End skills and experiment stuff.",
 	"license": "MIT",
@@ -28,7 +28,8 @@
 		"install": "yarn install",
 		"pug-it": "pug src",
 		"pug-it:w": "pug src -P -w",
-		"release": "grunt release"
+		"release": "grunt release",
+		"publish": "npm publish"
 	},
 	"dependencies": {
 		"@angular/animations": "^6.1.0",

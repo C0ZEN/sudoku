@@ -6,5 +6,13 @@ module.exports = {
 				'build'
 			]
 		}
+	},
+	npm            : {
+		options: {
+			cmd : 'run',
+			args: [
+				'publish'
+			]
+		}
 	}
 };
