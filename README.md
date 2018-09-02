@@ -1,5 +1,5 @@
 # Sudoku
-[![Software License][license-image]](LICENSE) [![Dependency Status][daviddm-image]][daviddm-url] [![devDependencies Status][daviddm-dev-image]][daviddm-dev-url] [![Maintainability][code-climate-maintainability-image]][code-climate-maintainability-url] [![Test Coverage][code-climate-coverage-image]][code-climate-coverage-url]
+[![Software License][license-image]](LICENSE) [![npm][npm-image]](npm-url) [![Dependency Status][daviddm-image]][daviddm-url] [![devDependencies Status][daviddm-dev-image]][daviddm-dev-url] [![Maintainability][code-climate-maintainability-image]][code-climate-maintainability-url] [![Test Coverage][code-climate-coverage-image]][code-climate-coverage-url]
 > Sudoku app to improve my Front-End skills and experiment stuff.
 
 ## Authors
@@ -33,6 +33,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
 [license-image]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat
+[npm-image]: https://img.shields.io/npm/v/:package.svg
+[npm-url]: https://www.npmjs.com/package/c0zen-sudoku
 [daviddm-image]: https://david-dm.org/C0ZEN/sudoku/status.svg
 [daviddm-url]: https://david-dm.org/C0ZEN/sudoku
 [daviddm-dev-image]: https://david-dm.org/C0ZEN/sudoku/dev-status.svg
