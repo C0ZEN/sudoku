@@ -8,15 +8,23 @@
 
 ## Development server
 
-Run `ng start` for a dev server. Navigate to `http://localhost:5100/`. The app will automatically reload if you change any of the source files.
+Run `ng start` for a dev server. Navigate to `http://localhost:5100/`.  
+The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component component-name` to generate a new component.  
+You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng build` to build the project.  
+The build artifacts will be stored in the `docs/` directory.
+
+## Release
+
+Run `grunt release` to create a new stable version of the project.  
+Follow the prompts to create a new tag, update the files, build the docs and publish to npm.
 
 ## Contributing
 
